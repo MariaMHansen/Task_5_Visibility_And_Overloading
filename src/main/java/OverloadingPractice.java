@@ -43,14 +43,12 @@ import java.util.Arrays;
 
 public class OverloadingPractice {
     public static void main(String[] args) {
-        OverloadingPractice op = new OverloadingPractice();
-        System.out.println("Task 1: " ); op.getPizzaInfo();
-        System.out.println("Task 2: " ); op.createPizzas();
-        System.out.println("Task 3: " ); op.printPizzas();
-        System.out.println("Task 4: " ); op.createOrder();
-        System.out.println("Task 5: " ); op.calculateTotalPrice();
-
-
+        //OverloadingPractice op = new OverloadingPractice();
+        //System.out.println("Task 1: " ); op.getPizzaInfo();
+        //System.out.println("Task 2: " ); op.createPizzas();
+        //System.out.println("Task 3: " ); op.printPizzas();
+        //System.out.println("Task 4: " ); op.createOrder();
+        //System.out.println("Task 5: " ); op.calculateTotalPrice();
     }
     /**
      * Task 1
@@ -68,6 +66,7 @@ public class OverloadingPractice {
      * Difficulty: 2
      */
 
+    /*
     public void getPizzaInfo(){
         Pizza standardPizza = new Pizza("Margherita");
         System.out.println(
@@ -76,7 +75,7 @@ public class OverloadingPractice {
                         " ingredients: "+  Arrays.toString(standardPizza.getIngredients()));
     }
 
-
+     */
 
     /**
      * Task 2
@@ -94,6 +93,8 @@ public class OverloadingPractice {
      * New skills: overloading constructors
      * Difficulty: 2
      */
+
+    /*
     public void createPizzas(){
         Pizza standardPizza = new Pizza("Margherita");
         System.out.println("Pizza name: " + standardPizza.getName() + " price: "+ standardPizza.getPrice() + " ingredients: "+  Arrays.toString(standardPizza.getIngredients()));
@@ -102,6 +103,8 @@ public class OverloadingPractice {
         Pizza hawaiiPizza = new Pizza("Hawaii", "ham", "pineapple");
         System.out.println("Pizza name: " + hawaiiPizza.getName() + " price: "+ hawaiiPizza.getPrice() + " ingredients: "+  Arrays.toString(hawaiiPizza.getIngredients()));
     }
+     */
+
     /**
      * Task 3
      * Since the Visibility for all attributes in this task is private
@@ -116,8 +119,8 @@ public class OverloadingPractice {
      * New skills: creating setters
      * Difficulty: 3
      */
-    // Task 3
-    // setters and print
+
+    /*
     public void printPizzas(){
         Pizza standardPizza = new Pizza("Margherita");
         standardPizza.printPizza();
@@ -125,8 +128,9 @@ public class OverloadingPractice {
         standardPizza.setPrice(50.00);
         standardPizza.setIngredients(new String[] {"crust", "mozzarella", "tomatoes"});
         standardPizza.printPizza();
-
     }
+     */
+
     /**
      * Task 4
      * Create an Order class, one attribute, which is
@@ -143,6 +147,7 @@ public class OverloadingPractice {
      * Difficulty: 4
      */
 
+    /*
     public void createOrder(){
         Order order = new Order();
         Pizza standardPizza = new Pizza("Margherita");
@@ -153,8 +158,8 @@ public class OverloadingPractice {
         order.addPizza(hawaiiPizza);
         System.out.println("Order details: ");
         order.printPizzas();
-
     }
+     */
 
     /**
      * Task 5
@@ -171,7 +176,7 @@ public class OverloadingPractice {
      * Difficulty: 2
      */
 
-
+/*
     public void calculateTotalPrice(){
         PizzaManager pizzaManager = new PizzaManager();
         Order order = new Order();
@@ -184,8 +189,9 @@ public class OverloadingPractice {
         System.out.println("The total price is: "+ pizzaManager.calculateTotalPrice(order));
         System.out.println("The total price with 10 kr discount is: " + pizzaManager.calculateTotalPrice(order,10.0));
     }
-}
+ */
 
+}
 /**
  * @author Maria Hansen
  */
