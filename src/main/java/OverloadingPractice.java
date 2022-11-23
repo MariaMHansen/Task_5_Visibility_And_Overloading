@@ -59,7 +59,7 @@ import java.util.Arrays;
 /**
  * This is the Main method,
  * Uncomment the lines of code for each method you implement
- * to test your solution
+ * to test your solution.
  */
 
 public class OverloadingPractice {
