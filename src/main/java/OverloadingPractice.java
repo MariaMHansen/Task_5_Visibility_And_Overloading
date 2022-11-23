@@ -1,22 +1,5 @@
-/*
-   Welcome to assignment five,
-   Where you will practice with using visibility and overloading.
-   In this task you will need to make classes yourself, based on the
-   descriptions and the UML diagram, provided in the UML folder.
-
-   ------------------------------------------------------------
-   Visibility and Overloading
-   -------------------------------------------------------------
-   Visibility ...
-   Overloading ...
-
-   In this exercise, you will practice build your own pizzeria order manager.
-   Scroll down to STEP 1:
-   */
-
-
 import java.util.Arrays;
-import java.util.Arrays;
+
     /*
        Welcome to assignment five,
        Where you will practice with using visibility modifiers and overloading.
@@ -36,8 +19,6 @@ import java.util.Arrays;
        It is considered to be good practise to make all class attributes private
        and create getters and setters to access them.
 
-
-
        ------------------------------------------------------------
        Overriding
        -------------------------------------------------------------
@@ -53,8 +34,6 @@ import java.util.Arrays;
        to create a pizzeria software program, for making pizzas, calculating prices and printing receipts.
        Scroll down to STEP 1:
        */
-
-
 
 /**
  * This is the Main method,
@@ -206,3 +185,7 @@ public class OverloadingPractice {
         System.out.println("The total price with 10 kr discount is: " + pizzaManager.calculateTotalPrice(order,10.0));
     }
 }
+
+/**
+ * @author Maria Hansen
+ */
