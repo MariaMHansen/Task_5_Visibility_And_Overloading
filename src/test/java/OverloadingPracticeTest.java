@@ -161,22 +161,6 @@ class OverloadingPracticeTest {
     }
 
     // Task 3 Test
-    // check pizza exists
-    // check price field exists
-    // check name field exists
-    // check ingredients exist
-
-    // check setName exists
-    // check setPrice exists
-    // check setIngredients exists
-
-    // set name to ChangedName
-    // get value
-    // compare
-
-    // possibly copy paste for ChangedPrice
-
-    // Task 3 Test
     @DisplayName("Checks pizza setters")
     @Test
     void orderMethodsTest() throws ClassNotFoundException, NoSuchMethodException, NoSuchFieldException, InvocationTargetException, InstantiationException, IllegalAccessException {
